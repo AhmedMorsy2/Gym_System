@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ahmed",
+    "duration": { "from": "10:00 AM", "to": "7:00 PM" },
+    "trainerId": 1
+  },
+  {
+    "name": "Mohamed",
+    "duration": { "from": "12:00 PM", "to": "9:00 PM" },
+    "trainerId": 2
+  },
+  {
+    "name": "Ali",
+    "duration": { "from": "10:00 AM", "to": "7:00 PM" },
+    "trainerId": 3
+  }
+]
