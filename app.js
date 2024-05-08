@@ -16,7 +16,7 @@ app.get("/membersRev", (req, res) => {
   });
   res.status(200).json({ TotalRevenue: totalRevenue });
 });
-app.get(" ", (req, res) => {
+app.get("/trainerRev", (req, res) => {
   let id = req.params.id;
   let index = trainers.findIndex((trainer) => trainer.trainerId == id);
   if (index === -1) res.status(404).json({ message: "Trainer Not Found" });
